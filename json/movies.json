@@ -1,0 +1,307 @@
+{
+    "movies":[
+        {
+            "title":"Captain America",
+            "release_year":"2012",
+            "in_universe_year":"1945",
+            "id":0,
+            "image_url":"shield.png",
+            "characters":[
+            ],
+            "events": [
+                {
+                    "locations": [{"duration":5,"place":0, "characters": [0,1], "information": "Steve Rogers gets the serum"}]
+                },
+                {
+                    "locations": [{"duration":5,"place":6, "characters": [0,1],"information": "While in italy, rogers heard that bucky was dead"}]
+                },
+                {
+                    "locations": [{"duration":5,"place":1, "characters": [0,1], "information": "fight in germany"}]
+                },
+                {
+                    "locations": [{"duration":5,"place":2, "characters": [0,1,2],"information": "Steve awakens 70 years later"}]
+                }
+            ]
+
+        },
+        {
+            "title":"Captain Marvel",
+            "release_year":"2012",
+            "in_universe_year":"1990",
+            "id":1,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Incredible Hulk",
+            "release_year":"2012",
+            "in_universe_year":"2010",
+            "id":2,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Iron man",
+            "release_year":"2012",
+            "in_universe_year":"2010",
+            "id":3,
+            "characters":[
+                5,11
+            ],
+            "image_url":"shield.png",
+            "events": [
+                {
+                    "location": 0,
+                    "percentage": "start",
+                    "information": "Tony stark takes over Stark indistries",
+                    "characters": [
+                        5
+
+                    ]
+                },
+                {
+                    "location": 6,
+                    "percentage": "mid",
+                    "information": "Tony Stark is in Afghanistan",
+                    "characters": [
+                        5
+
+                    ]
+                },
+                {
+                    "location": 2,
+                    "percentage": "end",
+                    "information": "rest of the movie",
+                    "characters": [
+                        5
+
+                    ]
+                },
+                {
+                    "location": 1,
+                    "percentage": "credits",
+                    "information": "Nick fury ask stark for the avengers",
+                    "characters": [
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"Iron man 2",
+            "release_year":"2012",
+            "in_universe_year":"2011",
+            "id":4,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Thor",
+            "release_year":"2012",
+            "in_universe_year":"2011",
+            "id":5,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Avengers",
+            "release_year":"2012",
+            "in_universe_year":"2012",
+            "id":6,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Iron man 3",
+            "release_year":"2012",
+            "in_universe_year":"2012",
+            "id":7,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Thor 2",
+            "release_year":"2012",
+            "in_universe_year":"2013",
+            "id":8,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Captain America 2",
+            "release_year":"2012",
+            "in_universe_year":"2014",
+            "id":9,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Guardians of the galaxy",
+            "release_year":"2012",
+            "in_universe_year":"2014",
+            "id":10,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Guardians of the galaxy 2",
+            "release_year":"2012",
+            "in_universe_year":"2014",
+            "id":11,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Avengers 2",
+            "release_year":"2012",
+            "in_universe_year":"2015",
+            "id":12,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Antman",
+            "release_year":"2012",
+            "in_universe_year":"2015",
+            "id":13,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Captain america 3",
+            "release_year":"2012",
+            "in_universe_year":"2016",
+            "id":14,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Black panther",
+            "release_year":"2012",
+            "in_universe_year":"2016",
+            "id":15,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Spiderman homecoming",
+            "release_year":"2012",
+            "in_universe_year":"2016",
+            "id":16,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Dr. Strange",
+            "release_year":"2012",
+            "in_universe_year":"2016",
+            "id":17,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Thor 3",
+            "release_year":"2012",
+            "in_universe_year":"2017",
+            "id":18,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Antman 2",
+            "release_year":"2012",
+            "in_universe_year":"2018",
+            "id":19,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Avengers 3",
+            "release_year":"2012",
+            "in_universe_year":"2018",
+            "id":20,
+            "image_url":"shield.png",
+            "events":[
+                {
+                    "locations": [
+                        {"duration": 5,"place":36, "characters": [6,7,4], "information":"The asgardian ship is attacked by Thanos"}
+                    ]
+                },
+                {
+                    "locations": [
+                        {"duration": 5,"place":0, "characters": [4,5,22,23], "information":"Bruce banner warns dr strange and ironman and fight" },
+                        {"duration": 5,"place":36, "characters": [6,13,14,15,16,17,24], "information":"Guardians meet thor"}
+                    ]
+                },
+                {
+                    "locations": [
+                        {"duration": 5,"place":30, "characters": [1,12,10,20,21], "information":"Wanda and vision are attacked and saved by captain america" },
+                        {"duration": 5,"place":17, "characters": [14,15,17,24], "information":"Guardians go to knowhere and meet Thanos"}
+                    ]
+                },
+                {
+                    "locations": [
+                        {"duration": 5,"place":0, "characters": [1,4,10,11,12,20,21], "information":"Avengers headquarters" },
+                        {"duration": 5,"place":36, "characters": [5,22,23], "information":"Ironman spiderman strange are in space"}
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"Avengers 4",
+            "release_year":"2012",
+            "in_universe_year":"2023",
+            "id":21,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        },
+        {
+            "title":"Spiderman 2",
+            "release_year":"2012",
+            "in_universe_year":"2023",
+            "id":22,
+            "characters":[
+
+            ],
+            "image_url":"shield.png"
+        }
+    ]
+}

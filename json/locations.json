@@ -1,0 +1,358 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "name": "United States",
+      "element": "earth",
+      "position": {"x":2.5,"y":3},
+      "data": {
+        "id": "US",
+        "name": "United States",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 1,
+      "name": "Germany",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "DE",
+        "name": "Germany",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 2,
+      "name": "Wakanda",
+      "element": "earth",
+      "position": {"x":5,"y":4},
+      "data": {
+        "id": "ET",
+        "name": "Wakanda",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 3,
+      "name": "Arctic ocean",
+      "position": {"x":4,"y":3},
+      "element": "eart"
+    },
+    {
+      "id": 4,
+      "name": "Hala",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 5,
+      "name": "Brazil",
+      "element": "earth",
+      "position": {"x":3,"y":5},
+      "data": {
+        "id": "BR",
+        "name": "Brazil",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 6,
+      "name": "Afghanistan",
+      "element": "earth",
+      "position": {"x":6,"y":3},
+      "data": {
+        "id": "AF",
+        "name": "Afghanistan",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 7,
+      "name": "Monaco",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "MC",
+        "name": "Monaco",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 8,
+      "name": "Norway",
+      "value": 100,
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "NO",
+        "name": "Norway",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 9,
+      "name": "Asgard",
+      "position": {"x":0,"y":0},
+      "element": "asgard"
+    },
+    {
+      "id": 10,
+      "name": "New Mexico",
+      "element": "earth",
+      "position": {"x":2,"y":3.5},
+      "data": {
+        "id": "NM",
+        "name": "New Mexico",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 11,
+      "name": "India",
+      "element": "earth",
+      "position": {"x":7,"y":4},
+      "data": {
+        "id": "IN",
+        "name": "India",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 12,
+      "name": "Londen",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "VK",
+        "name": "Londen",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 13,
+      "name": "Svartalfheim",
+      "position": {"x":0,"y":0},
+      "element": "asgard"
+    },
+    {
+      "id": 14,
+      "name": "Morag",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 15,
+      "name": "Xandar",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 16,
+      "name": "Kyln prison",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 17,
+      "name": "Knowhere",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 18,
+      "name": "Ego",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 19,
+      "name": "South Africa",
+      "element": "earth",
+      "position": {"x":5,"y":6},
+      "data": {
+        "id": "ZA",
+        "name": "South Africa",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 20,
+      "name": "Siberia",
+      "element": "earth",
+      "position": {"x":6,"y":2},
+      "data": {
+        "id": "RU",
+        "name": "Siberia",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 21,
+      "name": "Lagos",
+      "element": "earth",
+      "position": {"x":5,"y":3},
+      "data": {
+        "id": "PT",
+        "name": "Lagos",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 22,
+      "name": "Vienna",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "AT",
+        "name": "Vienna",
+        "value": 100,
+        "fill": null
+        }
+    },
+    {
+      "id": 23,
+      "name": "Bucharest",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "RO",
+        "name": "Bucharest",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 24,
+      "name": "Busan",
+      "element": "earth",
+      "position": {"x":8,"y":3},
+      "data": {
+        "id": "KR",
+        "name": "Busan",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 25,
+      "name": "Kathmandu",
+      "element": "earth",
+      "position": {"x":7,"y":4},
+      "data": {
+        "id": "NP",
+        "name": "Kathmandu",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 26,
+      "name": "Dark dimension",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 27,
+      "name": "Sakaar",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 28,
+      "name": "Hong Kong",
+      "element": "earth",
+      "position": {"x":7,"y":3},
+      "data": {
+        "id": "HK",
+        "name": "Hong Kong",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 29,
+      "name": "nidavellir",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 30,
+      "name": "Scotland",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "VK",
+        "name": "Scotland",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 31,
+      "name": "Titan",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 32,
+      "name": "Vormir",
+      "position": {"x":0,"y":0},
+      "element": "planet"
+    },
+    {
+      "id": 33,
+      "name": "Mexico",
+      "element": "earth",
+      "position": {"x":2.5,"y":4},
+      "data": {
+        "id": "MX",
+        "name": "Mexico",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 34,
+      "name": "Italy",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "IT",
+        "name": "Italy",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 35,
+      "name": "Netherlands",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "NL",
+        "name": "Netherlands",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 36,
+      "name": "Space",
+      "position": {"x":0,"y":50},
+      "element": "planet"
+    }
+  ]
+}

@@ -1,32 +1,70 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class="app">
+        <div class="planets">
+            <Planets :movie="currentMovie" />
+        </div>
+        <div class="time">
+            <TimeLine @clicked="setMovie" />
+        </div>
     </div>
-    <router-view/>
-  </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+    import Map from '@/components/Map'
+    import Planets from '@/components/Planets'
+    import TimeLine from '@/components/TimeLine'
 
-#nav {
-  padding: 30px;
+    export default {
+        components: {
+            Planets,
+            TimeLine,
+            Map,
+        },
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+        methods: {
+            setMovie (id) {
+                this.currentMovie = id
+            },
+        },
 
-    &.router-link-exact-active {
-      color: #42b983;
+        data () {
+            return {
+                currentPlanet: 0,
+                currentMovie: 0,
+            }
+        },
     }
-  }
-}
+</script>
+
+<style lang="scss">
+
+    .app {
+        height                : 100vh;
+        overflow              : hidden;
+
+        display               : grid;
+        grid-template-columns : 100%;
+    }
+
+    body {
+        background : black;
+        margin     : 0;
+    }
+
+    .map {
+        width  : 100%;
+        height : 800px;
+    }
+
+    .time {
+        position : fixed;
+        bottom   : 50px;
+        width    : 100%;
+    }
+
+    .planets {
+        width  : 100%;
+        height : 80%;
+    }
+
 </style>

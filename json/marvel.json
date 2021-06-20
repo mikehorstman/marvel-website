@@ -1,0 +1,33 @@
+{
+    "movie": {
+        "title": "Captain America",
+        "realeas_year": "2012",
+        "in_universe_year": "2013",
+        "description": "a good movie",
+        "characters": [
+            {
+                "name": "Steve rogers",
+                "alias": "Captain America",
+                "information": "a superhero"
+            },
+            {
+                "name": "Tony Stark",
+                "alias": "Ironman",
+                "information": "a superhero"
+            }
+        ],
+        "locations": [
+            {
+                "name": "New York",
+                "image_url": "image",
+                "coordinates": "123",
+                "events":[
+                    {
+                        "year": "2015",
+                        "description": "battle of new york"
+                    }
+                ]
+            }
+        ]
+    }
+}
