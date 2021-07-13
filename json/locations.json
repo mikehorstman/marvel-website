@@ -40,7 +40,7 @@
       "id": 3,
       "name": "Arctic ocean",
       "position": {"x":4,"y":3},
-      "element": "eart"
+      "element": "earth"
     },
     {
       "id": 4,
@@ -88,6 +88,7 @@
       "id": 8,
       "name": "Norway",
       "value": 100,
+      "element": "earth",
       "position": {"x":5,"y":2.5},
       "data": {
         "id": "NO",
@@ -154,19 +155,19 @@
       "id": 15,
       "name": "Xandar",
       "position": {"x":0,"y":0},
-      "element": "planet"
+      "element": "planet4"
     },
     {
       "id": 16,
       "name": "Kyln prison",
       "position": {"x":0,"y":0},
-      "element": "planet"
+      "element": "planet2"
     },
     {
       "id": 17,
       "name": "Knowhere",
       "position": {"x":0,"y":0},
-      "element": "planet"
+      "element": "planet4"
     },
     {
       "id": 18,
@@ -262,7 +263,7 @@
       "id": 26,
       "name": "Dark dimension",
       "position": {"x":0,"y":0},
-      "element": "planet"
+      "element": "space"
     },
     {
       "id": 27,
@@ -286,7 +287,7 @@
       "id": 29,
       "name": "nidavellir",
       "position": {"x":0,"y":0},
-      "element": "planet"
+      "element": "planet2"
     },
     {
       "id": 30,
@@ -304,13 +305,13 @@
       "id": 31,
       "name": "Titan",
       "position": {"x":0,"y":0},
-      "element": "planet"
+      "element": "planet4"
     },
     {
       "id": 32,
       "name": "Vormir",
       "position": {"x":0,"y":0},
-      "element": "planet"
+      "element": "planet3"
     },
     {
       "id": 33,
@@ -351,8 +352,56 @@
     {
       "id": 36,
       "name": "Space",
-      "position": {"x":0,"y":50},
-      "element": "planet"
+      "position": {"x":0,"y":0},
+      "element": "space"
+    },
+    {
+      "id": 37,
+      "name": "Switserland",
+      "element": "earth",
+      "position": {"x":5,"y":2.5},
+      "data": {
+        "id": "AT",
+        "name": "Vienna",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 38,
+      "name": "Jotunheim",
+      "position": {"x":50,"y":50},
+      "element": "asgard"
+    },
+    {
+      "id": 39,
+      "name": "United States",
+      "element": "earth",
+      "position": {"x":2.0,"y":2.8},
+      "data": {
+        "id": "US",
+        "name": "United States",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 40,
+      "name": "United States",
+      "element": "earth",
+      "position": {"x":2.3,"y":3.9},
+      "data": {
+        "id": "US",
+        "name": "United States",
+        "value": 100,
+        "fill": null
+      }
+    },
+    {
+      "id": 41,
+      "name": "Vanaheim",
+      "position": {"x":20,"y":80},
+      "element": "asgard"
     }
   ]
 }

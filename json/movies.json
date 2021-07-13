@@ -1,307 +1,1411 @@
 {
-    "movies":[
+    "movies": [
         {
-            "title":"Captain America",
-            "release_year":"2012",
-            "in_universe_year":"1945",
-            "id":0,
-            "image_url":"shield.png",
-            "characters":[
-            ],
+            "title": "Select a movie from the timeline",
+            "id": 0,
+            "color": "#689775",
+            "events": [
+            ]
+        },
+        {
+            "title": "Captain America",
+            "release_year": "07/01/2011",
+            "in_universe_year": "01/01/1945",
+            "id": 1,
+            "icon": "captain_america.png",
+            "color": "#39829A",
             "events": [
                 {
-                    "locations": [{"duration":5,"place":0, "characters": [0,1], "information": "Steve Rogers gets the serum"}]
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,
+                                1
+                            ],
+                            "information": "Steve Rogers gets rejected for the US army. He signs up for the super soldier program and gets injected with the super soldier serum."
+                        }
+                    ]
                 },
                 {
-                    "locations": [{"duration":5,"place":6, "characters": [0,1],"information": "While in italy, rogers heard that bucky was dead"}]
+                    "id": 1,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 34,
+                            "characters": [
+                                0
+                            ],
+                            "information": "While Steve is on tour he hears that Bucky has lost in a battle. He goes on an mission to a factory taken over by HYDRA"
+                        }
+                    ]
                 },
                 {
-                    "locations": [{"duration":5,"place":1, "characters": [0,1], "information": "fight in germany"}]
+                    "id": 2,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 37,
+                            "characters": [
+                                0
+                            ],
+                            "information": "Rogers leads an attack to the HYDRA base to stop Zola from using weapons on major American cities"
+                        }
+                    ]
                 },
                 {
-                    "locations": [{"duration":5,"place":2, "characters": [0,1,2],"information": "Steve awakens 70 years later"}]
+                    "id": 3,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 1,
+                            "characters": [
+                                0
+                            ],
+                            "information": "Rogers crashes his plane into the Arctic ocean with a bomb that is about to take off"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,
+                                2
+                            ],
+                            "information": "Steve awakens after being frozen for 70 years. He meets Nick Fury."
+                        }
+                    ]
                 }
             ]
-
         },
         {
-            "title":"Captain Marvel",
-            "release_year":"2012",
-            "in_universe_year":"1990",
-            "id":1,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Incredible Hulk",
-            "release_year":"2012",
-            "in_universe_year":"2010",
-            "id":2,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Iron man",
-            "release_year":"2012",
-            "in_universe_year":"2010",
-            "id":3,
-            "characters":[
-                5,11
-            ],
-            "image_url":"shield.png",
+            "title": "Captain Marvel",
+            "release_year": "03/01/2019",
+            "in_universe_year": "1990",
+            "id": 2,
+            "icon": "captain_marvel.png",
+            "color": "#C3C56C",
             "events": [
                 {
-                    "location": 0,
-                    "percentage": "start",
-                    "information": "Tony stark takes over Stark indistries",
-                    "characters": [
-                        5
-
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 4,
+                            "characters": [
+                                3
+                            ],
+                            "information": "Carol Danvers lives on Kree-planet Hala. She is a good fighter."
+                        }
                     ]
                 },
                 {
-                    "location": 6,
-                    "percentage": "mid",
-                    "information": "Tony Stark is in Afghanistan",
-                    "characters": [
-                        5
-
+                    "id": 1,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 15,
+                            "characters": [
+                                3
+                            ],
+                            "information": "During a mission, Carol gets captured by Skrull commander Talos"
+                        }
                     ]
                 },
                 {
-                    "location": 2,
-                    "percentage": "end",
-                    "information": "rest of the movie",
-                    "characters": [
-                        5
-
+                    "id": 2,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                3,2
+                            ],
+                            "information": "Carol crashes a plane on earth, where she meets Shield director Nick Fury."
+                        }
                     ]
                 },
                 {
-                    "location": 1,
-                    "percentage": "credits",
-                    "information": "Nick fury ask stark for the avengers",
-                    "characters": [
-                        5
+                    "id": 3,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                3,2
+                            ],
+                            "information": "Carol finds out that the earth is full of skrulls and she has to stop them."
+                        }
                     ]
                 }
             ]
         },
         {
-            "title":"Iron man 2",
-            "release_year":"2012",
-            "in_universe_year":"2011",
-            "id":4,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Thor",
-            "release_year":"2012",
-            "in_universe_year":"2011",
-            "id":5,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Avengers",
-            "release_year":"2012",
-            "in_universe_year":"2012",
-            "id":6,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Iron man 3",
-            "release_year":"2012",
-            "in_universe_year":"2012",
-            "id":7,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Thor 2",
-            "release_year":"2012",
-            "in_universe_year":"2013",
-            "id":8,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Captain America 2",
-            "release_year":"2012",
-            "in_universe_year":"2014",
-            "id":9,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Guardians of the galaxy",
-            "release_year":"2012",
-            "in_universe_year":"2014",
-            "id":10,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Guardians of the galaxy 2",
-            "release_year":"2012",
-            "in_universe_year":"2014",
-            "id":11,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Avengers 2",
-            "release_year":"2012",
-            "in_universe_year":"2015",
-            "id":12,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Antman",
-            "release_year":"2012",
-            "in_universe_year":"2015",
-            "id":13,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Captain america 3",
-            "release_year":"2012",
-            "in_universe_year":"2016",
-            "id":14,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Black panther",
-            "release_year":"2012",
-            "in_universe_year":"2016",
-            "id":15,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Spiderman homecoming",
-            "release_year":"2012",
-            "in_universe_year":"2016",
-            "id":16,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Dr. Strange",
-            "release_year":"2012",
-            "in_universe_year":"2016",
-            "id":17,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Thor 3",
-            "release_year":"2012",
-            "in_universe_year":"2017",
-            "id":18,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Antman 2",
-            "release_year":"2012",
-            "in_universe_year":"2018",
-            "id":19,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
-        },
-        {
-            "title":"Avengers 3",
-            "release_year":"2012",
-            "in_universe_year":"2018",
-            "id":20,
-            "image_url":"shield.png",
-            "events":[
+            "title": "Incredible Hulk",
+            "release_year": "06/01/2008",
+            "in_universe_year": "03/01/2010",
+            "id": 3,
+            "icon": "hulk.png",
+            "color": "#84B893",
+            "events": [
                 {
+                    "id": 0,
                     "locations": [
-                        {"duration": 5,"place":36, "characters": [6,7,4], "information":"The asgardian ship is attacked by Thanos"}
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                4
+                            ],
+                            "information": "General Thaddeus Ross meets with Dr. Bruce Banner regarding an experiment that makes humans immune to gamma radiation. It fails and Bruce gets infected with it."
+                        }
                     ]
                 },
                 {
+                    "id": 1,
                     "locations": [
-                        {"duration": 5,"place":0, "characters": [4,5,22,23], "information":"Bruce banner warns dr strange and ironman and fight" },
-                        {"duration": 5,"place":36, "characters": [6,13,14,15,16,17,24], "information":"Guardians meet thor"}
+                        {
+                            "duration": 5,
+                            "place": 5,
+                            "characters": [
+                               4
+                            ],
+                            "information": "5 years later, Bruce works at an factory while searching for a cure. A special force team tries to capture him and he transforms into the Hulk."
+                        }
                     ]
                 },
                 {
+                    "id": 2,
                     "locations": [
-                        {"duration": 5,"place":30, "characters": [1,12,10,20,21], "information":"Wanda and vision are attacked and saved by captain america" },
-                        {"duration": 5,"place":17, "characters": [14,15,17,24], "information":"Guardians go to knowhere and meet Thanos"}
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                               4
+                            ],
+                            "information": "Banner returns to Virginia and he is attacked a second time."
+                        }
                     ]
                 },
                 {
+                    "id": 3,
                     "locations": [
-                        {"duration": 5,"place":0, "characters": [1,4,10,11,12,20,21], "information":"Avengers headquarters" },
-                        {"duration": 5,"place":36, "characters": [5,22,23], "information":"Ironman spiderman strange are in space"}
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                4
+                            ],
+                            "information": "Dr. Sterns tells Banner he has developed a cure for his condition. He injects himself with bloodsamples and transforms into the abomination."
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                4
+                            ],
+                            "information": "Hulk fight with Abomination and wins."
+                        }
                     ]
                 }
             ]
         },
         {
-            "title":"Avengers 4",
-            "release_year":"2012",
-            "in_universe_year":"2023",
-            "id":21,
-            "characters":[
-
-            ],
-            "image_url":"shield.png"
+            "title": "Iron man",
+            "release_year": "05/01/2008",
+            "in_universe_year": "01/01/2010",
+            "id": 4,
+            "icon": "ironman.png",
+            "color": "#B54E5D",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                5
+                            ],
+                            "information": "Tony stark takes over Stark industries"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 6,
+                            "characters": [
+                                5,
+                                11
+                            ],
+                            "information": "Tony stark is in Afghanistan and gets captured. He builds an iron suit and escapes"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                5,
+                                11
+                            ],
+                            "information": "When back in America, he builds a better suit."
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                5,
+                                2
+                            ],
+                            "information": "Nick fury ask Stark for the avengers"
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "title":"Spiderman 2",
-            "release_year":"2012",
-            "in_universe_year":"2023",
-            "id":22,
-            "characters":[
-
+            "title": "Iron man 2",
+            "release_year": "04/01/2010",
+            "in_universe_year": "02/01/2020",
+            "id": 5,
+            "icon": "ironman.png",
+            "color": "#B54E5D",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 7,
+                            "characters": [
+                                5
+                            ],
+                            "information": "Tony Stark competes in the Monaco historic Grand Prix when he gets attacked by Vanko"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                5,11
+                            ],
+                            "information": "At the Stark expo, the enemy unveils his new military drones."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                5,11,10
+                            ],
+                            "information": "Stark defeats the enemies with help of Natasha Romanoff"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Thor",
+            "release_year": "04/01/2011",
+            "in_universe_year": "2011",
+            "id": 6,
+            "part": 1,
+            "icon": "thor.png",
+            "color": "#969EAB",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 9,
+                            "characters": [
+                                6,7
+                            ],
+                            "information": "Thor Odinson is about to get recognized as crown prince of asgard"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 9,
+                            "characters": [
+                                6,7
+                            ],
+                            "information": "During the ceremony they get attacked by Frost Giants"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 38,
+                            "characters": [
+                                6
+                            ],
+                            "information": "Thor goes to Jotunheim to fight with the frost giants"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 9,
+                            "characters": [
+                                6
+                            ],
+                            "information": "Odin is angry at Thor for fighting and sends him to earth as a punishment"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 10,
+                            "characters": [
+                                6
+                            ],
+                            "information": "Thor meets with Dr. Jane Foster, and together they search for his hammer"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 9,
+                            "characters": [
+                                6,7
+                            ],
+                            "information": "Back in Asgard, Thor and Loki fight the Frost giants again"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Avengers",
+            "release_year": "04/01/2012",
+            "in_universe_year": "01/01/2012",
+            "id": 7,
+            "icon": "avengers.png",
+            "color": "#AD8174",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 36,
+                            "characters": [
+                                7
+                            ],
+                            "information": "Loki meets with the Other"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 36,
+                            "characters": [
+                                7
+                            ],
+                            "information": "In exchange for retrieving the Tesseract,"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 36,
+                            "characters": [
+                                7
+                            ],
+                            "information": "the Other promises an army with which he can concure earth"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                2,9
+                            ],
+                            "information": "Nick Fury and Clint Barton are at the SHIELD facility"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                2,9,7
+                            ],
+                            "information": "The Tesseract suddenly activates and opens a wormhole, allowing Loki to reach earth"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 1,
+                            "characters": [
+                                7,9
+                            ],
+                            "information": "Loki escapes with the Tesseract and enslaves Hawkeye"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 39,
+                            "characters": [
+                                5
+                            ],
+                            "information": "Agent coulson informs Tony Stark"
+                        },
+                        {
+                            "duration": 5,
+                            "place": 40,
+                            "characters": [
+                                0,2
+                            ],
+                            "information": "Nick Fury approaches Steve Rogers"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 11,
+                            "characters": [
+                                4,10
+                            ],
+                            "information": "Natasha Romanoff recruits Bruce Banner to trace the Tesseract"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,2,4,5,10
+                            ],
+                            "information": "The Avengers Assemble and track down Loki"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 1,
+                            "characters": [
+                                0,4,5,10,7,9
+                            ],
+                            "information": "The Avengers fight with Loki and capture him"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,2,4,5,10,7,9
+                            ],
+                            "information": "Loki gets imprisoned at SHIELD"
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,2,4,5,10,7,9,6
+                            ],
+                            "information": "Thor arrives and wants to take Loki back to Asgard"
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,2,4,5,10,7,9,6
+                            ],
+                            "information": "Loki Tricks everyone which causes banner to transform into Hulk"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 39,
+                            "characters": [
+                                7
+                            ],
+                            "information": "Loki Escapes and opens a wormhole above New York"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 39,
+                            "characters": [
+                                0,4,5,10,7,9,6
+                            ],
+                            "information": "The Avengers are fighting the Chitauri and Loki"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 39,
+                            "characters": [
+                                0,4,5,10,7,9,6
+                            ],
+                            "information": "Stark closes the worm hole"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 9,
+                            "characters": [
+                                6,7
+                            ],
+                            "information": "Thor takes Loki back to Asgard"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Iron man 3",
+            "release_year": "04/01/2013",
+            "in_universe_year": "02/01/2012",
+            "id": 8,
+            "icon": "ironman.png",
+            "color": "#B54E5D",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                5
+                            ],
+                            "information": "Stark still has nightmares about New York"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                5
+                            ],
+                            "information": "He builds multiple robots to ensure Earth is safe"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 40,
+                            "characters": [
+                                5,11
+                            ],
+                            "information": "Iron man fights an enemy named the Mandarin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Thor 2",
+            "release_year": "10/01/2013",
+            "in_universe_year": "2013",
+            "id": 9,
+            "icon": "thor.png",
+            "color": "#969EAB",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 41,
+                            "characters": [
+                                6
+                            ],
+                            "information": "Thor is fighting in a war"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 12,
+                            "characters": [
+                                6
+                            ],
+                            "information": "Back on earth, Thor finds Jane and takes her back to Asgard"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 9,
+                            "characters": [
+                                6
+                            ],
+                            "information": "The enemy is looking for Jane"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 9,
+                            "characters": [
+                                6,7
+                            ],
+                            "information": "Thor is leaving with help of Loki"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 13,
+                            "characters": [
+                                6,7
+                            ],
+                            "information": "While fighting an enemy here, Loki is killed"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 12,
+                            "characters": [
+                                6
+                            ],
+                            "information": "Thor flees to earth, and the enemy follows"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 12,
+                            "characters": [
+                                6
+                            ],
+                            "information": "Thor defeats the enemy"
+                        }
+                    ]
+                }
             ],
-            "image_url":"shield.png"
+            "characters": [],
+            "image_url": "shield.png"
+        },
+        {
+            "title": "Captain America 2",
+            "release_year": "03/01/2014",
+            "in_universe_year": "01/01/2014",
+            "id": 10,
+            "icon": "captain_america.png",
+            "color": "#39829A",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,1,2,10,12
+                            ],
+                            "information": "Steve Rogers has to fight the winter soldier"
+                        }
+                    ]
+                }
+            ],
+            "characters": [],
+            "image_url": "shield.png"
+        },
+        {
+            "title": "Guardians of the galaxy",
+            "release_year": "08/01/2014",
+            "in_universe_year": "02/01/2014",
+            "id": 11,
+            "icon": "guardians.png",
+            "color": "#D17BB9",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                15
+                            ],
+                            "information": "Young Peter Quill is abducted by a group of aliens"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 14,
+                            "characters": [
+                                15
+                            ],
+                            "information": "Many years later, Quill steals a mysterious orb"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 14,
+                            "characters": [
+                                15
+                            ],
+                            "information": "He gets attacked by enemy forces"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 14,
+                            "characters": [
+                                15
+                            ],
+                            "information": "Quill escapes with the orb and the enemys ends Gamora after him"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 15,
+                            "characters": [
+                                15,17
+                            ],
+                            "information": "Gamora steals the orb, when Quill tries to sell it"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 15,
+                            "characters": [
+                                15,17,16,13
+                            ],
+                            "information": "They fight and attract some bounty hunters"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 15,
+                            "characters": [
+                                15,17,16,13
+                            ],
+                            "information": "They all get captured by space officers"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 16,
+                            "characters": [
+                                15,17,16,13,14
+                            ],
+                            "information": "While in prison, Drax the destroyer tries to kill Gamora"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 17,
+                            "characters": [
+                                15,17,16,13,14
+                            ],
+                            "information": "They all escape to Knowhere"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 17,
+                            "characters": [
+                                15,17,16,13,14
+                            ],
+                            "information": "Drax summons Ronan, the enemy"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 17,
+                            "characters": [
+                                15,17,16,13,14
+                            ],
+                            "information": "Ronan opens the orb, revealing the power stone"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 15,
+                            "characters": [
+                                15,17,16,13,14
+                            ],
+                            "information": "The Guardians are defeated and go to Xandar"
+                        }
+                    ]
+                },
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 15,
+                            "characters": [
+                                15,17,16,13,14
+                            ],
+                            "information": "They defeat the enemy in an epic and long battle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Guardians of the galaxy 2",
+            "release_year": "04/01/2017",
+            "in_universe_year": "03/01/2014",
+            "id": 12,
+            "part": 2,
+            "icon": "guardians.png",
+            "color": "#D17BB9",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 18,
+                            "characters": [
+                                15,17,16,13,14,18,24
+                            ],
+                            "information": "The Guardians go to Ego"
+                        }
+                    ]
+                }
+            ],
+            "characters": [],
+            "image_url": "shield.png"
+        },
+        {
+            "title": "Avengers 2",
+            "release_year": "04/01/2015",
+            "in_universe_year": "01/01/2015",
+            "id": 13,
+            "icon": "avengers.png",
+            "color": "#AD8174",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,4,5,6,10,9,11,12,20,21
+                            ],
+                            "information": "Avengers fight Ultron"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Antman",
+            "release_year": "07/01/2015",
+            "in_universe_year": "02/01/2015",
+            "id": 14,
+            "part": 1,
+            "icon": "antman.png",
+            "color": "#A33327",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                8
+                            ],
+                            "information": "Scott Lang becomes Antman"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Captain america 3",
+            "release_year": "04/01/2016",
+            "in_universe_year": "01/01/2016",
+            "id": 15,
+            "icon": "captain_america.png",
+            "color": "#39829A",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 1,
+                            "characters": [
+                                0,1,5,8,9,10,11,12,19,20,21,23
+                            ],
+                            "information": "All the avengers fight each other"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Black panther",
+            "release_year": "01/01/2018",
+            "in_universe_year": "02/01/2016",
+            "id": 16,
+            "icon": "black_panther.png",
+            "color": "#3F5062",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 2,
+                            "characters": [
+                                10
+                            ],
+                            "information": "T'challa becomes the Black panther"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Spiderman homecoming",
+            "release_year": "07/01/2017",
+            "in_universe_year": "03/01/2016",
+            "id": 17,
+            "icon": "spiderman.png",
+            "color": "#A33327",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                5,23
+                            ],
+                            "information": "Peter Parker is spiderman "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Dr. Strange",
+            "release_year": "10/01/2016",
+            "in_universe_year": "04/01/2016",
+            "id": 18,
+            "part": 1,
+            "icon": "strange.png",
+            "color": "#C3C56C",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 25,
+                            "characters": [
+                                22
+                            ],
+                            "information": "Dr. Strange becomes a sorcerer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Thor 3",
+            "release_year": "10/01/2017",
+            "in_universe_year": "2017",
+            "id": 19,
+            "part": 3,
+            "icon": "thor.png",
+            "color": "#969EAB",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,
+                                1
+                            ],
+                            "information": "Steve Rogers gets the serum"
+                        }
+                    ]
+                }
+            ],
+            "characters": [],
+            "image_url": "shield.png"
+        },
+        {
+            "title": "Antman 2",
+            "release_year": "06/01/2018",
+            "in_universe_year": "01/01/2018",
+            "id": 20,
+            "part": 2,
+            "icon": "antman.png",
+            "color": "#A33327",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,
+                                1
+                            ],
+                            "information": "Steve Rogers gets the serum"
+                        }
+                    ]
+                }
+            ],
+            "characters": [],
+            "image_url": "shield.png"
+        },
+        {
+            "title": "Avengers 3",
+            "release_year": "04/01/2018",
+            "in_universe_year": "02/01/2018",
+            "id": 21,
+            "part": 3,
+            "icon": "avengers.png",
+            "color": "#AD8174",
+            "image_url": "shield.png",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 36,
+                            "characters": [
+                                6,
+                                7,
+                                4
+                            ],
+                            "information": "The asgardian ship is attacked by Thanos"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                4,
+                                5,
+                                22,
+                                23
+                            ],
+                            "information": "Bruce banner warns dr strange and ironman and fight"
+                        },
+                        {
+                            "duration": 5,
+                            "place": 30,
+                            "characters": [
+                                6,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                24
+                            ],
+                            "information": "Guardians meet thor"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 30,
+                            "characters": [
+                                1,
+                                12,
+                                10,
+                                20,
+                                21
+                            ],
+                            "information": "Wanda and vision are attacked and saved by captain america"
+                        },
+                        {
+                            "duration": 5,
+                            "place": 17,
+                            "characters": [
+                                14,
+                                15,
+                                17,
+                                24
+                            ],
+                            "information": "Guardians go to knowhere and meet Thanos"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                1,
+                                4,
+                                10,
+                                11,
+                                12,
+                                20,
+                                21
+                            ],
+                            "information": "Avengers headquarters"
+                        },
+                        {
+                            "duration": 5,
+                            "place": 36,
+                            "characters": [
+                                5,
+                                22,
+                                23
+                            ],
+                            "information": "Ironman spiderman strange are in space"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Avengers 4",
+            "release_year": "04/01/2019",
+            "in_universe_year": "01/01/2023",
+            "id": 22,
+            "part": 4,
+            "icon": "avengers.png",
+            "color": "#AD8174",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,
+                                1
+                            ],
+                            "information": "Steve Rogers gets the serum"
+                        }
+                    ]
+                }
+            ],
+            "characters": [],
+            "image_url": "shield.png"
+        },
+        {
+            "title": "Spiderman 2",
+            "release_year": "07/01/2019",
+            "in_universe_year": "02/01/2023",
+            "id": 23,
+            "part": 2,
+            "icon": "spiderman.png",
+            "color": "#A33327",
+            "events": [
+                {
+                    "id": 0,
+                    "locations": [
+                        {
+                            "duration": 5,
+                            "place": 0,
+                            "characters": [
+                                0,
+                                1
+                            ],
+                            "information": "Steve Rogers gets the serum"
+                        }
+                    ]
+                }
+            ],
+            "characters": [],
+            "image_url": "shield.png"
         }
     ]
 }

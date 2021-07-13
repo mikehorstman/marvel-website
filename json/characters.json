@@ -6,11 +6,12 @@
             "alias": "Captain America",
             "information": [],
             "movies": [],
-            "image": "captain_america.png"},
+            "image": "captain_america.png"
+        },
         {
             "number": 1,
             "name": "Bucky Barnes",
-            "alias": "The Winter Soldier",
+            "alias": "Winter Soldier",
             "information": [],
             "movies": [],
             "image": "bucky.png" },
@@ -45,7 +46,7 @@
         {
             "number": 6,
             "name": "Thor Odinson",
-            "alias": "Thor: God of Thunder",
+            "alias": "Thor",
             "information": [],
             "movies": [],
             "image": "thor.png" },
@@ -101,7 +102,7 @@
         {
             "number": 14,
             "name": "Drax",
-            "alias": "Drax the destroyer",
+            "alias": "Drax",
             "information": [],
             "movies": [],
             "image": "drax.png" },
@@ -115,7 +116,7 @@
         {
             "number": 16,
             "name": "Rocket Raccoon",
-            "alias": "Rabbit",
+            "alias": "Rocket",
             "information": [],
             "movies": [],
             "image": "rocket.png" },

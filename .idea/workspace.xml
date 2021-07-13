@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="337e1da5-a277-4cf4-9d76-f58f8a652142" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/characters.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/characters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/locations.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/locations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/marvel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/movies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cross.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/planet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/planet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Map.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Planets.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planets.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanetsBackup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TimeLine.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimeLine.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1szKNd2fw3LCA1cinzoNBoRXfs0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="D:\DOCUMENTEN\Saxion\Jaar4\AOV\marvel-website\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DOCUMENTEN\Saxion\Jaar4\AOV\marvel-website\src\components" />
+      <recent name="D:\DOCUMENTEN\Saxion\Jaar4\AOV\marvel-website\src\assets" />
+      <recent name="D:\DOCUMENTEN\Saxion\Jaar4\AOV\marvel-website" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DOCUMENTEN\Saxion\Jaar4\AOV\marvel-website\json" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="337e1da5-a277-4cf4-9d76-f58f8a652142" name="Default Changelist" comment="" />
+      <created>1621869948752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621869948752</updated>
+      <workItem from="1621869954058" duration="3714000" />
+      <workItem from="1622012282837" duration="5000" />
+      <workItem from="1622741247200" duration="1276000" />
+      <workItem from="1623055175396" duration="4404000" />
+      <workItem from="1623068146919" duration="9789000" />
+      <workItem from="1623220818201" duration="89000" />
+      <workItem from="1623444469230" duration="459000" />
+      <workItem from="1623616485213" duration="5013000" />
+      <workItem from="1623662984056" duration="1600000" />
+      <workItem from="1623666117187" duration="18698000" />
+      <workItem from="1623918350756" duration="31383000" />
+      <workItem from="1623999447299" duration="22868000" />
+      <workItem from="1624109287783" duration="5030000" />
+      <workItem from="1624215285695" duration="134000" />
+      <workItem from="1624434173305" duration="13487000" />
+      <workItem from="1624473787565" duration="9082000" />
+      <workItem from="1624524178277" duration="667000" />
+      <workItem from="1624525769344" duration="805000" />
+      <workItem from="1624526785274" duration="15200000" />
+      <workItem from="1624708021738" duration="9674000" />
+      <workItem from="1624779565514" duration="25862000" />
+      <workItem from="1624886645737" duration="2658000" />
+      <workItem from="1624989474410" duration="4998000" />
+      <workItem from="1625002906568" duration="731000" />
+      <workItem from="1625216557199" duration="28000" />
+      <workItem from="1625641165908" duration="28000" />
+      <workItem from="1625816935667" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
